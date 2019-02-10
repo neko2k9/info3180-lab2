@@ -1,3 +1,59 @@
 body {
     padding-top: 5rem;
 }
+
+h4{
+    font-size: 20px;
+}
+
+.profile-page{
+    margin: 50px auto;
+    width:600px;
+    border: 1px solid green;
+    border-radius: 6px;
+    box-shadow: 1px 1px grey;
+}
+
+.about{
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.topbar{
+    text-align: center;
+    width:600px !important;
+    background-color: green;
+    color:white;
+}
+
+img{
+    margin:auto;
+    border-radius: 60%;
+    width: 200px;
+    height:200px;
+}
+
+ul{
+    text-align: center;
+    margin: auto;
+}
+
+li{
+    display: inline-block; 
+    text-align: center;
+    padding:20px;
+}
+
+.button{
+    border-radius: 6px;
+    background-color: green;
+    font-size: 25px;
+    padding:5px 60px;
+    color: white;
+}
+
+.about{
+    font-family: Arial;
+    font-size: 20px;
+    padding: 25px;
+}

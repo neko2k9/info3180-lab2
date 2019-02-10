@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="profile-page">
+    <div class="topbar">
+        <img src = "{{ url_for('static', filename = 'fortniteportrait.png') }}">
+        <h1>Neko Davis<h1>
+        <h4>@neko2k9</h4>
+        <h4>St. Catherine, Jamaica</h4>
+        <h4>Joined {{ date_joined }}</h4>
+        <br>
+    </div>
+    
+    <p class="about">My name is Neko Davis. I currently attend the University of the West Indies. My ambition is to become a Computer Technician. My hobbies include: playing video games, watching television, browsing the Internet and visiting new places.</p>
+    
+    <ul>
+        <li>
+		    <h3>15</h3>
+			<h4><strong>Posts</strong></h4>
+		</li>
+		<li>
+			<h3>45</h3>
+			<h4><strong>Following</strong></h4>
+		</li>
+		<li>
+			<h3>200</h3>
+			<h4><strong>Followers</strong></h4>
+		</li> 
+    </ul>
+    
+    <br>
+    
+    <div style="text-align:center">
+			<button class="button" type="button">Follow</button>
+	</div>
+	
+	<br>
+    
+</div>
+        
+{% endblock %}
